@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Stocks from "../../Stocks/Stocks";
 import "./StockEngine.css";
 import SearchInput from "../../Stocks/SearchInput";
-import { TOKEN } from "../../../config";
+import { TOKEN } from "../../../../config";
 
 function StockEngine() {
   const [ticker, setTicker] = useState("AAPL");

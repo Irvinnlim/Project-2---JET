@@ -5,7 +5,7 @@ import { db } from "../FireBase/FireBase";
 import { collection, getDocs } from "firebase/firestore";
 import "./Stats.css";
 import { Link } from "react-router-dom";
-import { TOKEN } from "../../config";
+import { TOKEN } from "../../../config";
 
 const URL = "https://finnhub.io/api/v1";
 
