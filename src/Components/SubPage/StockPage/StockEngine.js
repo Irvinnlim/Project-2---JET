@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import Stocks from "../../Stocks/Stocks";
 import "./StockEngine.css";
 import SearchInput from "../../Stocks/SearchInput";
-import { TOKEN } from "../../../config";
+// import { TOKEN } from "../../../config";
+
+const TOKEN = `${process.env.REACT_APP_API_KEY}`;
 
 function StockEngine() {
   const [ticker, setTicker] = useState("AAPL");
