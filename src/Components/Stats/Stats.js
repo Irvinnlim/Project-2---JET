@@ -5,7 +5,6 @@ import { db } from "../FireBase/FireBase";
 import { collection, getDocs } from "firebase/firestore";
 import "./Stats.css";
 import { Link } from "react-router-dom";
-import { TOKEN } from "../../config";
 
 const URL = "https://finnhub.io/api/v1";
 
@@ -36,6 +35,8 @@ function Stats() {
       setMyStocks(tempData);
     });
   }
+
+  const TOKEN = `${process.env.REACT_APP_API_KEY}`;
 
   const getStockData = (stock) => {
     return axios.get(`${URL}/quote?symbol=${stock}&token=${TOKEN}`);

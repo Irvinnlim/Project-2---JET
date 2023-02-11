@@ -2,9 +2,6 @@ import React, { useEffect, useState } from "react";
 import Stocks from "../../Stocks/Stocks";
 import "./StockEngine.css";
 import SearchInput from "../../Stocks/SearchInput";
-// import { TOKEN } from "../../../config";
-
-const TOKEN = `${process.env.REACT_APP_API_KEY}`;
 
 function StockEngine() {
   const [ticker, setTicker] = useState("AAPL");
@@ -28,6 +25,8 @@ function StockEngine() {
   };
 
   const URL = "https://finnhub.io/api/v1";
+
+  const TOKEN = `${process.env.REACT_APP_API_KEY}`;
 
   const [basicInfo, setBasicInfo] = useState({
     name: null,

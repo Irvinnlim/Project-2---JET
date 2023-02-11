@@ -3,12 +3,13 @@ import axios from "axios";
 import NewsArticle from "./NewsArticle";
 import "./MarketNews.css";
 import { Link } from "react-router-dom";
-import { TOKEN } from "../../config";
 
 function MarketNews() {
   const [data, setData] = useState();
 
   const URL = "https://finnhub.io/api/v1";
+
+  const TOKEN = `${process.env.REACT_APP_API_KEY}`;
 
   useEffect(() => {
     axios

@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import NewsArticle from "../../MarketNews/NewsArticle";
 import "./News.css";
-import { TOKEN } from "../../../config";
 
 function News() {
   const [data, setData] = useState();
 
   const URL = "https://finnhub.io/api/v1";
+
+  const TOKEN = `${process.env.REACT_APP_API_KEY}`;
 
   useEffect(() => {
     axios
