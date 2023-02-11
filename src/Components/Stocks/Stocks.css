@@ -1,0 +1,205 @@
+.stocks {
+    color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.stocks__container {
+    width: 1024px;
+    height: 100%;
+    display: flex;
+    padding: 0 48px 0 48px;
+    flex-direction: column;
+}
+
+.basicInfo__name {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.basicInfo__price {
+    display:flex;
+    justify-content: center;
+}
+
+.basicInfo__price > p {
+    padding: 2px;
+}
+
+.positive {
+    color: #5AC53B
+}
+
+.negative {
+    color : red;
+}
+
+.stocks__chart {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.stocks__daily {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-bottom: 0;
+    font-size: 14px;
+}
+
+.stocks__infowrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.stocks__info, .stocks__earnings, .stocks__recommendations, .stocks__news {
+    padding: 10px;
+    border: 1px solid #3B4754;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 464px;
+}
+
+.stocks__info, .stocks__recommendations {
+    margin-right: 5px;
+}
+
+.stocks__earnings, .stocks__news {
+    margin-left: 5px;
+}
+
+.stockinfo_header {
+    padding: 5px;
+    text-align: center;
+}
+
+.stockinfo_body {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 23px;
+}
+
+.stockinfo_body__left > p, .stockinfo_body__right > p, .earnings__left > p, .earnings__right > p  {
+    padding: 10px 5px 5px 5px;
+    text-align: left;
+}
+
+.stockinfo_body__right > p > a {
+    color:white;
+    text-decoration: none;
+}
+
+.stockinfo_body__right > p > a:hover {
+    color: #5AC53B;
+}
+
+.stocks__earnings, .stocks__recommendations, .stocks__news {
+    padding: 10px;
+    border: 1px solid #3B4754;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.stocks__recommendations {
+    width: auto;
+}
+.stocks__news {
+    width: 100%;
+}
+
+.earnings__header, .recommendations__header {
+    padding: 5px;
+    text-align: center;
+}
+
+.earnings__header > p {
+    font-size: 12px;
+}
+
+.earnings__body {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.recommendations__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.recommendations__buy {
+    display: flex;
+    padding: 20px 10px 10px 10px;
+    color: #5AC53B;
+    justify-content: space-between;
+}
+
+.recommendations__hold {
+    color: white;
+}
+
+.recommendations__sell {
+    display: flex;
+    padding: 10px;
+    color: #FF0000;
+    justify-content: center;
+}
+
+.recommendations__buy > p {
+    padding: 5px;
+}
+
+.recommendations__sell > p {
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.companynews__wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.companynews__headline {
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.companynews__source {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+
+.companynews__source:hover {
+    color: #5AC53B;
+}
+
+.infowrapper__top, .infowrapper__btm {
+    display: flex;
+}
+
+.infowrapper__top {
+    margin-bottom: 10px;
+}
+
+
+

@@ -1,0 +1,32 @@
+.header__wrapper {
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    color: white;
+    padding-top: 20px;
+}
+
+.header__logo {
+    margin-left: 48px;
+}
+
+.header__menuItems {
+    margin-left: 48px;
+}
+
+.header__menuItems > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0 10px;
+    margin-right: 48px;
+    vertical-align: middle;
+}
+
+.header__menuItems a:hover {
+    color: #5AC53B;
+    cursor: pointer;
+}
+
+
+
