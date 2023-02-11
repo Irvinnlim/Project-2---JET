@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+## Project Name & Pitch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Jet Trading App
 
-## Available Scripts
+A trading appllication with an interactive UI built with React and pulls stock information from FinnHub API. Charts powered by ChartJS and Lightweight Charts.
+
+https://jet-trading-app.vercel.app
+
+## Technologies Used
+
+- React
+- HTML
+- JavaScript
+- CSS
+
+## Project Screenshots
+
+### Main Page
+![mainpage](https://user-images.githubusercontent.com/110525418/217242883-1d2ed7ba-242b-439d-b019-a7dc1f010510.png)
+
+### Stock Page
+![stockpage](https://user-images.githubusercontent.com/110525418/217242971-540b5b36-401c-489b-9e95-72378c85e6b3.png)
+
+### Portfolio Page
+![portfoliopage](https://user-images.githubusercontent.com/110525418/217243028-5a127bd7-38b8-4afc-abf7-d7bd74cbbbb6.png)
+
+### News Page
+![newspage](https://user-images.githubusercontent.com/110525418/217243064-778f7670-cfdf-440f-9d3b-aceb979bb04b.png)
+
+### Account Page
+![accountpage](https://user-images.githubusercontent.com/110525418/217243126-a3e2595c-03a3-47a3-9d1e-2e7ac4c5b947.png)
+
+## Installation and Setup Instructions
+
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.  
 
 In the project directory, you can run:
 
-### `npm start`
+### Installation:
 
-Runs the app in the development mode.\
+`npm install`  
+
+### To Run Test Suite:  
+
+`npm test`  
+
+### To Start Server:
+
+`npm start`  
+
+### To Run App:
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Reflection
 
-### `npm test`
+This was a 3 week long project built during my second module at General Assembly's Software Engineering Bootcamp. Project goals included using technologies learned up until this point.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I wanted to build an application that allowed users to pull stock data from the FinnHub API based on the company there were interested in. I started this process by using the `create-react-app` boilerplate, then adding `React Router v6`.
 
-### `npm run build`
+One of the main challenges I ran into was mapping and rendering the different data structure between the FinnHub API and Lightweight Chart. This led me to spend a few days on researching and understanding the data structures in order to render the data visualization on the webpage.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+At the end of the day, the technologies implemented in this project are `React`, `React Router v6` and a significant amount of `JSX` and `CSS`. In the subsequent projects, I will begin to build on the backend setup.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## About Me
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I am an aspiring software developer and I aim to continualy hone my programming skills inorder to write programs that bring convenience and joy to the everyday life. My GitHub profile can be accessed via https://github.com/Irvinnlim
