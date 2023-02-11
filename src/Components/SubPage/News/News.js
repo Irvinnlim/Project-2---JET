@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import NewsArticle from "../../MarketNews/NewsArticle";
 import "./News.css";
-import { TOKEN } from "../../../../config";
+import { TOKEN } from "../../../config";
 
 function News() {
   const [data, setData] = useState();

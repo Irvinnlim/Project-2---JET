@@ -3,7 +3,7 @@ import axios from "axios";
 import NewsArticle from "./NewsArticle";
 import "./MarketNews.css";
 import { Link } from "react-router-dom";
-import { TOKEN } from "../../../config";
+import { TOKEN } from "../../config";
 
 function MarketNews() {
   const [data, setData] = useState();
